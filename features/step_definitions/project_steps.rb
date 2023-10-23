@@ -14,11 +14,11 @@ Given('There is a project') do
     end
   end
   
-  
   When('I visit the project page') do
 
     visit '/projects'
     puts "Reached project page"
+    save_and_open_page
 
   end
   
